@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Смартфон Apple iPhone 13",
+    "description": "Потужний процесор A15 Bionic і чудова камера для фото та відео.",
+    "price": 999.99,
+    "image": "https://via.placeholder.com/200x150?text=iPhone+13"
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук Dell XPS 13",
+    "description": "Легкий, потужний ноутбук з процесором Intel Core i7 і дисплеєм 4K.",
+    "price": 1299.99,
+    "image": "https://via.placeholder.com/200x150?text=Dell+XPS+13"
+  },
+  {
+    "id": 3,
+    "name": "Навушники Sony WH-1000XM4",
+    "description": "Навушники з шумозаглушенням для якісного звуку та комфорту.",
+    "price": 349.99,
+    "image": "https://via.placeholder.com/200x150?text=Sony+WH-1000XM4"
+  },
+  {
+    "id": 4,
+    "name": "Смарт-годинник Samsung Galaxy Watch 4",
+    "description": "Відстеження активності, серцевого ритму і персональний фітнес-тренер.",
+    "price": 249.99,
+    "image": "https://via.placeholder.com/200x150?text=Samsung+Watch+4"
+  },
+  {
+    "id": 5,
+    "name": "Ігрова консоль PlayStation 5",
+    "description": "Неймовірна потужність для найновіших ігор у форматі 4K HDR.",
+    "price": 499.99,
+    "image": "https://via.placeholder.com/200x150?text=PlayStation+5"
+  },
+  {
+    "id": 6,
+    "name": "Електронна книга Kindle Paperwhite",
+    "description": "Читання без відблисків, водонепроникна і з тривалою батареєю.",
+    "price": 129.99,
+    "image": "https://via.placeholder.com/200x150?text=Kindle+Paperwhite"
+  },
+  {
+    "id": 7,
+    "name": "Планшет Apple iPad Pro",
+    "description": "Міць комп'ютера в компактному і стильному корпусі з дисплеєм Liquid Retina.",
+    "price": 1099.99,
+    "image": "https://via.placeholder.com/200x150?text=iPad+Pro"
+  },
+  {
+    "id": 8,
+    "name": "Фітнес-браслет Xiaomi Mi Band 6",
+    "description": "Відстеження тренувань, сну і пульсу з великим кольоровим екраном.",
+    "price": 49.99,
+    "image": "https://via.placeholder.com/200x150?text=Xiaomi+Mi+Band+6"
+  },
+  {
+    "id": 9,
+    "name": "Фотоапарат Canon EOS R5",
+    "description": "Професійна камера з 45 МП сенсором і відеозаписом 8K.",
+    "price": 3899.99,
+    "image": "https://via.placeholder.com/200x150?text=Canon+EOS+R5"
+  },
+  {
+    "id": 10,
+    "name": "Ігрова мишка Razer DeathAdder V2",
+    "description": "Ергономічна ігрова мишка з високою точністю і програмованими кнопками.",
+    "price": 69.99,
+    "image": "https://via.placeholder.com/200x150?text=Razer+DeathAdder+V2"
+  }
+]
