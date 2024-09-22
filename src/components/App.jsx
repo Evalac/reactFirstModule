@@ -17,6 +17,18 @@ export const App = () => {
         description={data[1].description}
         price={data[1].price}
       />
+      <Gaddjets
+        url={data[2].image}
+        title={data[2].name}
+        description={data[2].description}
+        price={data[2].price}
+      />
+      <Gaddjets
+        url={data[3].image}
+        title={data[3].name}
+        description={data[3].description}
+        price={data[3].price}
+      />
     </div>
   );
 };
