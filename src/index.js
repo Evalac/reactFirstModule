@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import './index.css';
-import datas from './';
+import datas from './data.json';
+console.log(datas);
 
 // {const elemr = <span>HELLO</span>;
 // const elema = <span>WORLD</span>;
