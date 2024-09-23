@@ -16,7 +16,7 @@ export default function Gaddjets({
         <p className="product-description">{description}</p>
         <p className="product-price">Price: {price}</p>
         <p className="product-price">
-          Дуступність:{' '}
+          Дуступність:
           {quantity < 15 ? `Товар закінчується` : `Є в наявності ${quantity}`}
         </p>
         <button className="add-to-cart-btn">Додати в кошик</button>
@@ -26,9 +26,9 @@ export default function Gaddjets({
 }
 
 Gaddjets.propTypes = {
-  url: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  price: PropTypes.number,
-  quantity: PropTypes.number,
+  url: PropTypes.string.isRequired, //isRequired це означає що проп обовязковий, якщо його не буде десь в коді то буде помилдка
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  quantity: PropTypes.number.isRequired,
 };
