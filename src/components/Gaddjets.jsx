@@ -1,4 +1,12 @@
-export default function Gaddjets({ url, title, description, price }) {
+import PropTypes from 'prop-types';
+import defaultPic from './default-image.jpg';
+
+export default function Gaddjets({
+  url = defaultPic,
+  title = 'не відомо',
+  description,
+  price,
+}) {
   return (
     <div className="product-card">
       <img src={url} alt={title} className="product-image" loading="lazy" />
@@ -11,3 +19,10 @@ export default function Gaddjets({ url, title, description, price }) {
     </div>
   );
 }
+
+Gaddjets.propTypes = {
+  url: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  price: PropTypes.number,
+};
