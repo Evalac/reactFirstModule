@@ -6,6 +6,7 @@ export default function Gaddjets({
   title = 'не відомо',
   description,
   price,
+  quantity,
 }) {
   return (
     <div className="product-card">
@@ -14,6 +15,10 @@ export default function Gaddjets({
         <h3 className="product-name">{title}</h3>
         <p className="product-description">{description}</p>
         <p className="product-price">Price: {price}</p>
+        <p className="product-price">
+          Дуступність:{' '}
+          {quantity < 15 ? `Товар закінчується` : `Є в наявності ${quantity}`}
+        </p>
         <button className="add-to-cart-btn">Додати в кошик</button>
       </div>
     </div>
@@ -25,4 +30,5 @@ Gaddjets.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   price: PropTypes.number,
+  quantity: PropTypes.number,
 };
