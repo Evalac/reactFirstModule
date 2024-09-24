@@ -19,4 +19,10 @@ export default function GaddjetsLists({ items }) {
   );
 }
 
-GaddjetsLists.propsTypes = {};
+GaddjetsLists.propsTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+    })
+  ),
+};
