@@ -1,12 +1,12 @@
 import data from '../data';
-import Section from './Section';
-import GaddjetLists from './GaddjetsList';
+import { Section } from './Section';
+import { GaddjetsLists } from './GaddjetsList';
 
 export const App = () => {
   return (
     <div>
       <Section title="Якийсь заголовок">
-        <GaddjetLists items={data} />
+        <GaddjetsLists items={data} />
       </Section>
       <Section />
     </div>

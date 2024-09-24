@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import Gaddjets from './Gaddjets';
+import { Gaddjets } from './Gaddjets';
 
-export default function GaddjetsLists({ items }) {
+export const GaddjetsLists = ({ items }) => {
   return (
     <ul>
       {items.map(item => (
@@ -17,7 +17,7 @@ export default function GaddjetsLists({ items }) {
       ))}
     </ul>
   );
-}
+};
 
 GaddjetsLists.propsTypes = {
   items: PropTypes.arrayOf(

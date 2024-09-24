@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import defaultPic from './default-image.jpg';
 
-export default function Gaddjets({
+export const Gaddjets = ({
   url = defaultPic,
   title = 'не відомо',
   description,
   price,
   quantity,
-}) {
+}) => {
   return (
     <div className="product-card">
       <img src={url} alt={title} className="product-image" loading="lazy" />
@@ -23,7 +23,7 @@ export default function Gaddjets({
       </div>
     </div>
   );
-}
+};
 
 Gaddjets.propTypes = {
   url: PropTypes.string.isRequired, //isRequired це означає що проп обовязковий, якщо його не буде десь в коді то буде помилдка
