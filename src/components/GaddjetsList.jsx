@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Gaddjets from './Gaddjets';
 
 function GaddjetList({ items }) {
@@ -17,5 +18,12 @@ function GaddjetList({ items }) {
     </ul>
   );
 }
+GaddjetList.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    })
+  ),
+};
 
 export default GaddjetList;
