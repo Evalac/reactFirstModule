@@ -12,3 +12,17 @@ export const App = () => {
     </div>
   );
 };
+
+// String.prototype.toAlternatingCase = function () {
+//   console.log(
+//     this.split('')
+//       .map(letter =>
+//         letter === letter.toLowerCase()
+//           ? letter.toUpperCase()
+//           : letter.toLowerCase()
+//       )
+//       .join('')
+//   );
+// };
+
+// 'hello world'.toAlternatingCase();
