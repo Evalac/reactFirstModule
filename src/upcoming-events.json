@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Tech Conference 2024",
+    "location": "New York, USA",
+    "speaker": "John Smith",
+    "type": "Conference",
+    "time": {
+      "start": "2024-11-01 09:00",
+      "end": "2024-11-01 17:00"
+    }
+  },
+  {
+    "name": "AI Workshop",
+    "location": "Berlin, Germany",
+    "speaker": "Anna Müller",
+    "type": "Workshop",
+    "time": {
+      "start": "2024-12-05 10:00",
+      "end": "2024-12-05 14:00"
+    }
+  },
+  {
+    "name": "Marketing Summit",
+    "location": "Tokyo, Japan",
+    "speaker": "Kazuo Tanaka",
+    "type": "Summit",
+    "time": {
+      "start": "2024-10-15 08:00",
+      "end": "2024-10-15 18:00"
+    }
+  },
+  {
+    "name": "Healthcare Expo",
+    "location": "Toronto, Canada",
+    "speaker": "Dr. Emily Johnson",
+    "type": "Expo",
+    "time": {
+      "start": "2024-09-20 09:00",
+      "end": "2024-09-20 16:00"
+    }
+  },
+  {
+    "name": "Blockchain Forum",
+    "location": "Dubai, UAE",
+    "speaker": "Ahmed Al Maktoum",
+    "type": "Forum",
+    "time": {
+      "start": "2024-11-10 10:00",
+      "end": "2024-11-10 17:00"
+    }
+  },
+  {
+    "name": "Startup Pitch Event",
+    "location": "San Francisco, USA",
+    "speaker": "Elena Gonzalez",
+    "type": "Pitch Event",
+    "time": {
+      "start": "2024-10-25 13:00",
+      "end": "2024-10-25 18:00"
+    }
+  },
+  {
+    "name": "Environmental Symposium",
+    "location": "Sydney, Australia",
+    "speaker": "Prof. David Li",
+    "type": "Symposium",
+    "time": {
+      "start": "2024-12-12 09:30",
+      "end": "2024-12-12 16:00"
+    }
+  },
+  {
+    "name": "Cybersecurity Seminar",
+    "location": "London, UK",
+    "speaker": "James Williams",
+    "type": "Seminar",
+    "time": {
+      "start": "2024-09-18 14:00",
+      "end": "2024-09-18 17:00"
+    }
+  },
+  {
+    "name": "Design Thinking Workshop",
+    "location": "Stockholm, Sweden",
+    "speaker": "Maria Lindström",
+    "type": "Workshop",
+    "time": {
+      "start": "2024-11-23 10:00",
+      "end": "2024-11-23 15:00"
+    }
+  },
+  {
+    "name": "EdTech Conference",
+    "location": "Singapore",
+    "speaker": "Ravi Kumar",
+    "type": "Conference",
+    "time": {
+      "start": "2024-10-07 09:00",
+      "end": "2024-10-07 17:00"
+    }
+  }
+]
