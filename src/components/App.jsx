@@ -4,18 +4,19 @@ import { GaddjetsLists } from './GaddjetsList';
 import { PageTitle } from './PageTitle/PageTile';
 import { EventBoard } from './EventBoard/EventBoard';
 import upcomingEvents from '../upcoming-events.json';
+import { FaBeer } from 'react-icons/fa';
 
 export const App = () => {
   return (
-    <div>
+    <>
       {/* <Section title="Якийсь заголовок">
         <GaddjetsLists items={data} />
       </Section>
       <Section /> */}
-
+      <FaBeer />
       <PageTitle text="24th core worlds coalition conference" />
       <EventBoard events={upcomingEvents} />
-    </div>
+    </>
   );
 };
 
