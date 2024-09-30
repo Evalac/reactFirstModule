@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './EventCard.module.css';
-import { type } from '@testing-library/user-event/dist/type';
+import { formaformatEventStart } from '../utils/formatEventsStart';
+
 import {
   FaMapMarkerAlt,
   FaUserAlt,
@@ -27,11 +28,11 @@ function EventCard({ name, location, speaker, type, start, end }) {
       <div className={css.eventTime}>
         <p>
           <FaClock className={css.icon} size={16} />
-          Start: 2024-11-01 09:00
+          Start: {start}
         </p>
         <p>
           <FaClock className={css.icon} size={16} />
-          End: 2024-11-01 17:00
+          Duration: {}
         </p>
       </div>
     </div>
