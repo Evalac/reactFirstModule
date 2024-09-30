@@ -1,6 +1,3 @@
-import data from '../data';
-import { Section } from './Section';
-import { GaddjetsLists } from './GaddjetsList';
 import { PageTitle } from './PageTitle/PageTile';
 import { EventBoard } from './EventBoard/EventBoard';
 import upcomingEvents from '../upcoming-events.json';
@@ -10,10 +7,6 @@ import axios from 'axios';
 export const App = () => {
   return (
     <>
-      {/* <Section title="Якийсь заголовок">
-        <GaddjetsLists items={data} />
-      </Section>
-      <Section /> */}
       <FaBeer />
       <PageTitle text="24th core worlds coalition conference" />
       <EventBoard events={upcomingEvents} />
