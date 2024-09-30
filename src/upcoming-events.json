@@ -3,7 +3,7 @@
     "name": "Tech Conference 2024",
     "location": "New York, USA",
     "speaker": "John Smith",
-    "type": "Conference",
+    "type": "free",
     "time": {
       "start": "2024-10-22T09:00:00",
       "end": "2024-11-01T09:00Z"
@@ -13,19 +13,19 @@
     "name": "AI Workshop",
     "location": "Berlin, Germany",
     "speaker": "Anna Müller",
-    "type": "Workshop",
+    "type": "free",
     "time": {
       "start": "2024-11-01T09:00Z",
-      "end": "2024-11-01T09:00Z"
+      "end": "2024-11-01T11:00Z"
     }
   },
   {
     "name": "Marketing Summit",
     "location": "Tokyo, Japan",
     "speaker": "Kazuo Tanaka",
-    "type": "Summit",
+    "type": "paid",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-11-21T09:00Z",
       "end": "2024-11-01T09:00Z"
     }
   },
@@ -33,9 +33,9 @@
     "name": "Healthcare Expo",
     "location": "Toronto, Canada",
     "speaker": "Dr. Emily Johnson",
-    "type": "Expo",
+    "type": "vip",
     "time": {
-      "start": "2024-12-01T09:00:00",
+      "start": "2024-12-01T12:34:00",
       "end": "2024-11-01T09:00"
     }
   },
@@ -43,7 +43,7 @@
     "name": "Blockchain Forum",
     "location": "Dubai, UAE",
     "speaker": "Ahmed Al Maktoum",
-    "type": "Forum",
+    "type": "paid",
     "time": {
       "start": "2024-11-01T09:00Z",
       "end": "2024-11-01T09:00Z"
@@ -53,9 +53,9 @@
     "name": "Startup Pitch Event",
     "location": "San Francisco, USA",
     "speaker": "Elena Gonzalez",
-    "type": "Pitch Event",
+    "type": "vip",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-11-12T22:00Z",
       "end": "2024-11-01T09:00Z"
     }
   },
@@ -63,9 +63,9 @@
     "name": "Environmental Symposium",
     "location": "Sydney, Australia",
     "speaker": "Prof. David Li",
-    "type": "Symposium",
+    "type": "free",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-11-01T13:00Z",
       "end": "2024-11-01T09:00Z"
     }
   },
@@ -73,9 +73,9 @@
     "name": "Cybersecurity Seminar",
     "location": "London, UK",
     "speaker": "James Williams",
-    "type": "Seminar",
+    "type": "free",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-11-01T22:00Z",
       "end": "2024-11-01T09:00Z"
     }
   },
@@ -83,9 +83,9 @@
     "name": "Design Thinking Workshop",
     "location": "Stockholm, Sweden",
     "speaker": "Maria Lindström",
-    "type": "Workshop",
+    "type": "vip",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-12-01T14:00Z",
       "end": "2024-11-01T09:00Z"
     }
   },
@@ -93,9 +93,9 @@
     "name": "EdTech Conference",
     "location": "Singapore",
     "speaker": "Ravi Kumar",
-    "type": "Conference",
+    "type": "free",
     "time": {
-      "start": "2024-11-01T09:00Z",
+      "start": "2024-11-01T21:00Z",
       "end": "2024-11-01T09:00Z"
     }
   }

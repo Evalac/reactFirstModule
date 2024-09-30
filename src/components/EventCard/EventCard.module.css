@@ -1,4 +1,5 @@
 .eventCard {
+  position: relative;
   background-color: #f4f4f9;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -57,4 +58,27 @@
 .icon {
   margin-right: 5px;
   color: grey;
+}
+
+.chip {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+
+.free {
+  background-color: green;
+}
+
+.paid {
+  background-color: blue;
+}
+
+.vip {
+  background-color: red;
 }
