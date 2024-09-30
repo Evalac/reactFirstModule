@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import { EventCard } from 'components/EventCard/EventCard';
 
 function EventBoard({ events }) {
-  console.log(events);
-
   return (
     <div className={css.eventBoard}>
       {events.map(event => (
